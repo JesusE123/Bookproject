@@ -28,8 +28,8 @@ app.post('/booking', (req, res) => {
   const payload = req.body;
   payload.id = bookings.length + 1;
   bookings.push(payload);
-
   return res.jsonp(payload);
+ 
 });
 
 app.delete('/booking/:id', (req, res) => {

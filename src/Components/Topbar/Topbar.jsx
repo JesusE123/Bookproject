@@ -5,7 +5,7 @@ import  Avatar  from '@mui/material/Avatar'
 const Topbar = () => {
     const {datos} = useForm()
     
-    console.log(datos)
+  
     const getUser = () => {
        if (datos?.username){
         return datos.username

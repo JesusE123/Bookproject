@@ -14,7 +14,10 @@ const Http = {
     },
     post: (url,body)=>{
         return instance.post(url, body);
-    }
+    },
+    put: (url,body)=>{
+        return instance.put(url,body);
+    } 
 }
 
 export {Http}
